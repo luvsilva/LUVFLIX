@@ -1,9 +1,9 @@
-* {
+*{
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family:'Roboto', sans-serif;
 }
 
-:root {
+:root{
   --primary: #2A7AE4;
   --black: #000000;
   --blackLighter: #9E9E9E;
@@ -12,14 +12,22 @@
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
+  --grayDark: #141414;
 }
 
 html,
-body {
+body{
   margin: 0;
   padding: 0;
 }
 
-a {
+a{
   color: inherit;
-} 
+}
+
+#root{
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+}
