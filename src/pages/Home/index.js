@@ -7,7 +7,7 @@ import Carousel from '../../components/Carousel'
 import Footer from '../../components/Footer'
 
 const AppWrapper = styled.div`
-  background: var(--grayDark)
+  background: var(--grayDark);
 `;
 
 function Home() {
