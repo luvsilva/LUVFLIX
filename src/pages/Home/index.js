@@ -13,7 +13,7 @@ const AppWrapper = styled.div`
 function Home() {
   return (
     <AppWrapper>
-      <Menu/>
+      <Menu></Menu>
       <BannerMain videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
       url={dadosIniciais.categorias[0].videos[0].url}
       videoDescription={"Teorias Filmes da Marvel - até que faz sentido !!!"}/>
